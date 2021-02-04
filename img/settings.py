@@ -67,7 +67,7 @@ ITEM_PIPELINES = {
    'scrapy.pipelines.images.ImagesPipeline': 1,
 }
 # 开启下面的存储 会在yield的时候增加   'images': []  一对变量
-IMAGES_STORE = 'images'
+IMAGES_STORE = 'images/cat'
 # 获取src的图片地址，并下载。
 IMAGES_URLS_FIELD = 'src'
 

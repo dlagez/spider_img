@@ -11,7 +11,7 @@ class img2Spider(scrapy.Spider):
     name = 'img3'
     allowed_domians = ['walltu.com']
     start_urls = [
-        'https://www.walltu.com/tuku/gou/',
+        'http://www.walltu.com/e/search/result/?searchid=491',
     ]
 
     # 爬取多个页面
